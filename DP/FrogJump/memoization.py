@@ -12,5 +12,5 @@ class Solution:
         return min(left,right)
     def minCost(self, height):
         dp=[-1] * len(height)
-        return self.fun(height , (len(height)-1) , dp , k)
+        return self.fun(height , (len(height)-1) , dp  )
         # code here

@@ -19,4 +19,4 @@ class Solution:
 # Driver code
 arr = [2, 1, 4, 9]
 obj = Solution()
-print(obj.maximumNonAdjacentSum(arr))
+print(obj.rob(arr))
